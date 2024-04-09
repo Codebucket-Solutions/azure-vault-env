@@ -1,6 +1,8 @@
 {
   "name":"azure-vault-env",
   "type": "module",
+  "main": "dist/index",
+  "types": "dist/index",
   "scripts": {
     "compile": "tsc",
     "start": "npm run compile && node dist/index.js",
