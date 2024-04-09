@@ -15,3 +15,4 @@ const secretValue = secret.value;
 if (!secretValue) throw new Error("Value Not Found");
 const parsedSecretValue = JSON.parse(secretValue);
 process.env = { ...process.env, ...parsedSecretValue };
+export default process.env;
