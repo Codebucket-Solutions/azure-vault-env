@@ -1,7 +1,7 @@
 {
   "name":"azure-vault-env",
   "type": "module",
-  "main": "dist/index",
+  "main": "index.js",
   "types": "dist/index",
   "scripts": {
     "compile": "tsc",
