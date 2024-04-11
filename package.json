@@ -16,5 +16,9 @@
   "dependencies": {
     "@azure/identity": "^4.0.1",
     "@azure/keyvault-secrets": "^4.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Codebucket-Solutions/azure-vault-env.git"
   }
 }
