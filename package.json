@@ -1,5 +1,6 @@
 {
-  "name":"azure-vault-env",
+  "name":"@codebucket/azure-env",
+  "version":"1.0.0",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index",
