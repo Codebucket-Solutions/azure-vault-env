@@ -19,3 +19,12 @@ try {
 } catch (e) {
   console.log(e);
 }
+
+let entrypoint = true;
+export async function load(url: any, context: any, defaultLoad: any) {
+  if (entrypoint) {
+    context.format = "commonjs";
+    entrypoint = false;
+  }
+  return defaultLoad(url, context, defaultLoad);
+}
